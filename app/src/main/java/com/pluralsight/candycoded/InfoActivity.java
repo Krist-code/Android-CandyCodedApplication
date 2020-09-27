@@ -27,7 +27,7 @@ public class InfoActivity extends AppCompatActivity {
 
     // ***
     // TODO - Task 2 - Launch the Google Maps Activity
-// Beginning Task 2
+    //  Beginning Task 2
     public  void createMapIntent(View view){
         Uri uri = Uri.parse("geo:0,0?q=618 E South St Orlando, FL 32801");
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, uri);
@@ -42,7 +42,7 @@ public class InfoActivity extends AppCompatActivity {
 
     // ***
     // TODO - Task 3 - Launch the Phone Activity
-    //    Beginning Task 3
+    //  Beginning Task 3
     public void createPhoneIntent(View view){
         Uri uri = Uri.parse("tel:0123456789");
         Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
@@ -50,6 +50,6 @@ public class InfoActivity extends AppCompatActivity {
 
         startActivity(phoneIntent);
     }
-//    Ending Task 3
+    //  Ending Task 3
     // ***
 }

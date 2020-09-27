@@ -82,8 +82,7 @@ public class MainActivity extends AppCompatActivity {
     }
     // ***
     // TODO - Task 1 - Show Store Information Activity
-    // ***
-//    Beginning Task 1
+    //    Beginning Task 1
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
 
@@ -91,7 +90,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(infoIntent);
         return super.onOptionsItemSelected(item);
     }
-//    End of task 1
+    //    End of task 1
+    // ***
 
     private void addCandiesToDatabase(Candy[] candies) {
         SQLiteDatabase db = candyDbHelper.getWritableDatabase();
